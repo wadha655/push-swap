@@ -15,7 +15,7 @@ SRC = push_swap.c \
 		op_a.c 	op_b.c 	mini_max.c 	parsing.c 	sortbig.c  sorting.c extra.c error.c \
 		
 CFLAGS = -Wall -Wextra -Werror
-CC = CC
+CC = cc
 OBJ = $(SRC:.c=.o)
 LIBS = ./libft/libft.a 
 
